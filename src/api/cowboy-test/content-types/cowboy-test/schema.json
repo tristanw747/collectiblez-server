@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cowboy_tests",
+  "info": {
+    "singularName": "cowboy-test",
+    "pluralName": "cowboy-tests",
+    "displayName": "cowboy-test"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "price": {
+      "type": "decimal"
+    }
+  }
+}
